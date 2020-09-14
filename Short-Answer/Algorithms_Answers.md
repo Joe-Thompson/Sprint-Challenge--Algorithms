@@ -43,4 +43,6 @@ to floor 51 and find our safe floor.
 
 Left Side, looking for a safe egg:
 Our left side base case is to find a floor that does not break the egg.  We move our pivot to the middle
-of our left side array and repeat the reverse logic found above in our right side situation. 
+of our left side array and repeat the reverse logic found above in our right side situation.
+
+ Runtime: O(n log n)
