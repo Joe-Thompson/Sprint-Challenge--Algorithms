@@ -31,7 +31,7 @@ right side array would be the best approach, and most likely lead to less broken
 Likewise if the egg did break on our first drop we would discard the right side of the array  
 and move our pivot to the middle of the left side of the array.
 
-I believe we would have to base cases depending on our initial drop, and which side of the array 
+I believe we would have two base cases depending on our initial drop, and which side of the array 
 we are working on.  
 
 Right Side, looking for a broken egg:
@@ -45,4 +45,4 @@ Left Side, looking for a safe egg:
 Our left side base case is to find a floor that does not break the egg.  We move our pivot to the middle
 of our left side array and repeat the reverse logic found above in our right side situation.
 
- Runtime: O(n log n)
+ Runtime: O(log n)
